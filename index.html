@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sololearn| Tani</title>
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div>
+    <nav class="flex align-items-center justify-content-between">
+      <div class="flex align-items-center">
+        <img alt="logo" width="75px" height="75px" src="./assets/sololearnlogo.png" />
+        <span id="comp-name">sololearn</span>
+      </div>
+
+      <ul class="flex gap-20 font-20 align-items-center">
+        <li><a>Courses</a></li>
+        <li><a>Code Playground</a></li>
+        <li><a>Discuss</a></li>
+        <li><a>Blog</a></li>
+        <li><button id="go-pro">Go Pro</button></li>
+      </ul>
+
+      <ul class="flex align-items-center gap-20">
+        <li><a>2302</a></li>
+        <li>
+          <a>
+            <img id="avatar" width="50px"
+             height="50px" 
+            alt="user-avatar" 
+            src="./assets/Tani.jpeg.jpg" 
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="content">
+      <div id="semi-canvas">
+        <div class="semi"></div>
+      </div>
+
+      <div id="curi" class="flex column">
+        <div>
+          <i class="fas fa-chevron-left white-text"></i>
+          <a class="white-text"> Back to courses </a>
+        </div>
+
+        <div id="curi-courses" class="flex column">
+          <!--HTML-->
+          <div class="flex align-items-center gap-20">
+            <div class="avatar-course">HTML</div>
+            <div class="flex column gap-10">
+              <h3 class="white-text">HTML</h3>
+              <p class="white-text">
+                This FREE course will teach you how to design a web page using
+                HTML. Complete a series of hands-on exercises and practice
+                while writing real HTML code.
+              </p>
+            </div>
+          </div>
+          <!--end of HTML-->
+
+          <!--overview card-->
+          <div class="course-card flex column">
+            <div class="flex align-items-center justify-content-between">
+              <div class="main-topic flex">
+                <div
+                  class="flex justify-content-center align-items-center gap-20"
+                >
+                  <div
+                    class="course-avatar-main flex justify-content-center align-items-center"
+                  >
+                    <img
+                      class="course-avatar"
+                      width="40px"
+                      height="40px"
+                      alt="avatar"
+                      src="https://sololearnuploads.azureedge.net/uploads/modules/1014/1009.png"
+                    />
+                  </div>
+                  <h3>Overview</h3>
+                </div>
+              </div>
+              <div class="flex gap-60 align-items-center">
+                <span>5/5</span>
+                <i class="fas fa-chevron-down blue-icon"></i>
+              </div>
+            </div>
+          <!--lessons overview-->
+          <!--first lesson card-->
+          <div class="flex column gap-20 display-none">
+            <div class="flex align-items-center gap-60">
+              <div class="circle"></div>
+              <div class="flex align-items-center gap-10">
+                <div class="flex column lesson-card gap-20">
+                  <div>
+                    <h4>1.1 Lesson</h4>
+                    <span>What is HTML?</span>
+                  </div>
+                  <div class="flex align-items-center gap-60">
+                    <span>1763 comments</span>
+                    <i class="fas fa-check-circle green font-35"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--second lesoon card-->
+            <div class="flex align-items-center gap-60">
+              <div class="circle"></div>
+              <div class="flex align-items-center gap-10">
+                <div class="flex column lesson-card gap-20">
+                  <div>
+                    <h4>2.1 Lesson</h4>
+                    <span>Basic HTML Structure</span>
+                  </div>
+                  <div class="flex align-items-center gap-60">
+                    <span>4198 comments</span>
+                    <i class="fas fa-check-circle green font-35"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--third lesson card-->
+            <div class="flex align-items-center gap-60">
+              <div class="circle"></div>
+              <div class="flex align-items-center gap-10">
+                <div class="flex column lesson-card gap-20">
+                  <div>
+                    <h4>3.1 Lesson</h4>
+                    <span>Creating your First HTML Page</span>
+                  </div>
+                  <div class="flex align-items-center gap-60">
+                    <span>4582 comments</span>
+                    <i class="fas fa-check-circle green font-35"></i>
+                  </div>
+                </div>
+                <!--side card-->
+                <div class="flex column lesson-card gap-20">
+                  <div>
+                    <h4>3.2 Code Repo</h4>
+                    <span>
+                      <img src="https://assets.sololearn.com/coderepo/origami_bird_1@3x.png" 
+                      alt="code-repo-image"
+                        height="30px" 
+                        width="45px"
+                      />
+                    </span>
+                  </div>
+                  <div class="flex align-items-center gap-60">
+                    <button type="button" id="button"> +5 XP</button>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <!--fourth lesson card-->
+            <div class="flex column gap-20">
+              <div class="flex align-items-center gap-60">
+                <div class="circle"></div>
+                <div class="flex align-items-center gap-10">
+                  <div class="flex column lesson-card gap-20">
+                    <div>
+                      <h4>4.1 Lesson</h4>
+                      <span>Creating a Blog</span>
+                    </div>
+                    <div class="flex align-items-center gap-60">
+                      <span>1243 comments</span>
+                      <i class="fas fa-check-circle green font-35"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--fifth card-->
+              <div class="flex column gap-20">
+                <div class="flex align-items-center gap-60">
+                  <div class="circle"></div>
+                  <div class="flex align-items-center gap-10">
+                    <div class="flex column lesson-card gap-20">
+                      <div>
+                        <h4>5.1 Lesson</h4>
+                        <span>Module 1 Quiz</span>
+                      </div>
+                      <div class="flex align-items-center gap-60">
+                        <span>1061 comments</span>
+                        <i class="fas fa-check-circle green font-35"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!--end of overview-->
+
+                <!--HTML Basics-->
+                <div class="course-card flex column justify-content-between">
+                  <div class="flex align-items-center justify-content-between">
+                    <div class="main-topic flex">
+                      <div class="flex justify-content-center align-items-center gap-20">
+                        <div class="course-avatar-main flex justify-content-center align-items-center">
+                          <img class="course-avatar" width="40px" height="40px" alt="avatar"
+                            src="https://sololearnuploads.azureedge.net/uploads/modules/1014/1010.png" />
+                        </div>
+                        <h3>HTML Basics</h3>
+                      </div>
+                    </div>
+                    <div class="flex gap-60 align-items-center">
+                      <span>5/5</span>
+                      <i class="fas fa-chevron-down blue-icon"></i>
+                    </div>
+                  </div>
+                  <!--end of HTML Basics-->
+
+                  <!--challenges-->
+                  <div class="course-card flex justify-content-between align-items-center">
+                    <div class="main-topic flex">
+                      <div class="flex justify-content-center align-items-center gap-20">
+                        <div class="course-avatar-main flex justify-content-center align-items-center">
+                          <img class="course-avatar" height="40px;" weight="40px;"
+                            src=https://sololearnuploads.azureedge.net/uploads/modules/1014/1151.png alt="avatar" />
+                        </div>
+                        <h3>Challenges</h3>
+                      </div>
+                    </div>
+                    <div class="flex gap-60 align-items-center">
+                      <span>5/5</span>
+                      <i class="fas fa-chevron-down blue-icon"></i>
+                    </div>
+                  </div>
+                  <!--end of challenges-->
+
+                  <!--shortcut-->
+                  <div class="flex align-items-center">
+                    <hr />
+                    <button id="shortcut-btn">Take a shortcut</button>
+                    <hr />
+                  </div>
+                  <!--end of shortcut-->
+
+                  <!--start Html5 card-->
+                  <div class="course-card flex justify-content-between align-items-center">
+                    <div class="main-topic flex">
+                      <div class="flex justify-content-center align-items-center gap-20">
+                        <div class="course-avatar-main flex justify-content-center align-items-center">
+                          <img class="course-avatar" width="40px" height="40px" alt="avatar"
+                            src="https://sololearnuploads.azureedge.net/uploads/modules/1014/1211.png" />
+                        </div>
+                        <h3>HTML5</h3>
+                      </div>
+                    </div>
+                    <div class="flex gap-60 align-items-center">
+                      <span>5/5</span>
+                      <i class="fas fa-chevron-down blue-icon"></i>
+                    </div>
+                  </div>
+                  <!--end-->
+
+                  <!--certification-->
+                  <div class="course-card">
+                    <div class="flex gap-20">
+                      <i style="font-size: 100px" class="fas fa-address-card"> </i>
+                      <div>
+                        <h3>Certificate</h3>
+                        <p>
+                          In order to get your certificate you should complete the
+                          course. Certificates allow you to prove your education.
+                        </p>
+                      </div>
+                    </div>
+                    <div>
+                      <progress value="90" max="100"></progress>
+                    </div>
+                  </div>
+
+                  <!--code repo progress-->
+                  <div class="course-card">
+                    <div class="flex gap-20">
+                      <img src="https://assets.sololearn.com/coderepo/origami_bird_1@3x.png" alt="image" width="40px"
+                        height="40px" />
+                      <div>
+                        <h3 class="code-repo">Code Repo Progress</h3>
+                        <p>
+                          In order to get your certificate you should complete the
+                          course. Certificates allow you to prove your education.
+                        </p>
+                      </div>
+                      <img src="https://assets.sololearn.com/coderepo/origami_bird_10@3x.png" alt="img" width="40px"
+                        height="40px" class="flex gap-60" />
+                    </div>
+                    <progress value="0" max="100"></progress>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="./js/index.js"></script>
+</body>
+
+</html>
